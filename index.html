@@ -6,15 +6,35 @@
     <title>alurabooks</title><link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 
 <body>
 <header class="cabeçalho">
-    <div class="container"></div>
-    <span class="cabeçalho_menu-hamburguer"></span>
+    <div class="container">
+    <input type="checkbox" id="menu" class="container__botao">
+    <label for="menu">
+       <span class="cabeçalho_menu-hamburguer container__imagem"></span>
+    </label>
+    <ul class="Lista-menu">
+       <li class="Lista-menu__titulo">categorias</li>
+       <li class="Lista-menu__item">
+        <a href="#" class="Lista-menu__link">programação</a>
+       </li>
+       <li class="Lista-menu__item">
+        <a href="#" class="Lista-menu__link">Front-end></a>
+       </li>
+       <li class="Lista-menu__item">
+        <a href="#" class="Lista-menu__link">infraestrutura</a>
+       </li>
+       <li class="Lista-menu__item">
+        <a href="#" class="Lista-menu__link">business</a>
+       </li>
+       <li class="Lista-menu__item">
+        <a href="#" class="Lista-menu__link">Desing & UX</a>
+      </li>
+    </ul>
     <img src="img/Logo.svg" alt="">
   </div>
-  
   <div class="container"></div>
    <a href="#"><img src="img/Favoritos.svg" alt="meus favoritos"></a>
   <a href="#"><img src="img/Sacola.svg" alt="carrinhos de compras"></a>
@@ -22,4 +42,5 @@
 </div>
 </header>
 </body>
+
 </html>
